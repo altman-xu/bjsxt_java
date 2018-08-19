@@ -1,6 +1,6 @@
 .DS_Store
 .idea/*
 bjsxt_java.iml
-out/*
+out/
 *.class
 
