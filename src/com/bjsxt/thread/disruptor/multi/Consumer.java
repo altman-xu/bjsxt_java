@@ -1,4 +1,4 @@
-package com.bjsxt.disruptor.multi;
+package com.bjsxt.thread.disruptor.multi;
 
 import com.lmax.disruptor.WorkHandler;
 

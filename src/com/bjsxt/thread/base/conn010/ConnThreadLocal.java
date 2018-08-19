@@ -1,4 +1,4 @@
-package com.bjsxt.base.conn010;
+package com.bjsxt.thread.base.conn010;
 
 /**
  * @author xuzhihua

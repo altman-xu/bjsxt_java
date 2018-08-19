@@ -1,4 +1,4 @@
-package com.bjsxt.base.conn009;
+package com.bjsxt.thread.base.conn009;
 
 import java.util.LinkedList;
 import java.util.concurrent.atomic.AtomicInteger;

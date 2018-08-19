@@ -1,4 +1,4 @@
-package com.bjsxt.disruptor.generate1;
+package com.bjsxt.thread.disruptor.generate1;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

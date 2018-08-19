@@ -1,6 +1,6 @@
-package com.bjsxt.disruptor.generate2;
+package com.bjsxt.thread.disruptor.generate2;
 
-import com.bjsxt.disruptor.generate1.Trade;
+import com.bjsxt.thread.disruptor.generate1.Trade;
 import com.lmax.disruptor.BusySpinWaitStrategy;
 import com.lmax.disruptor.EventFactory;
 import com.lmax.disruptor.dsl.Disruptor;

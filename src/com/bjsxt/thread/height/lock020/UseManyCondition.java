@@ -1,4 +1,4 @@
-package com.bjsxt.height.lock020;
+package com.bjsxt.thread.height.lock020;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

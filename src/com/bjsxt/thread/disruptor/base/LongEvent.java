@@ -1,4 +1,4 @@
-package com.bjsxt.disruptor.base;
+package com.bjsxt.thread.disruptor.base;
 
 /**
  * @author xuzhihua

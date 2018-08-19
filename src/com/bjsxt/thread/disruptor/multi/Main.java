@@ -1,8 +1,7 @@
-package com.bjsxt.disruptor.multi;
+package com.bjsxt.thread.disruptor.multi;
 
 import com.lmax.disruptor.*;
 import com.lmax.disruptor.dsl.ProducerType;
-import com.sun.tools.jdi.InternalEventHandler;
 
 import java.util.UUID;
 import java.util.concurrent.CountDownLatch;

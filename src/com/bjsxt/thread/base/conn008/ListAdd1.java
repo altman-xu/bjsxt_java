@@ -1,4 +1,4 @@
-package com.bjsxt.base.conn008;
+package com.bjsxt.thread.base.conn008;
 
 import java.util.ArrayList;
 import java.util.List;
