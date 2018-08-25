@@ -12,7 +12,7 @@ public class Server {
         ServerSocket server = null;
         try {
             server = new ServerSocket(PROT);
-            System.out.println(" server start .. ");
+            System.out.println("server start .. ");
             //进行阻塞
             Socket socket = server.accept();
             //新建一个线程执行客户端的任务
