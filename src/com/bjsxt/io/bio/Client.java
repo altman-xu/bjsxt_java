@@ -16,16 +16,18 @@ public class Client {
         BufferedReader in = null;
         PrintWriter out = null;
 
+        System.out.println("client start .. ");
+
         try {
             socket = new Socket(ADDRESS, PORT);
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(), true);
 
             //向服务器端发送数据
-            out.println("接收到客户端的请求数据...");
-            out.println("接收到客户端的请求数据1111...");
+            out.println("sent by client: 数据...");
+            out.println("sent by client: data111...");
             String response = in.readLine();
-            System.out.println("Client: " + response);
+            System.out.println("Client console【" + response + "】");
 
         } catch (Exception e) {
             e.printStackTrace();
