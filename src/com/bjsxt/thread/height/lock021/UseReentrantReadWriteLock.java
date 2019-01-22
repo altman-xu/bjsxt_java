@@ -67,14 +67,21 @@ public class UseReentrantReadWriteLock {
             }
         }, "t4");
 
-//		t1.start();
-//		t2.start();
-
+//        情况1 读读 情况下，可以重入
 //		t1.start(); // R
-//		t3.start(); // W
+//		t2.start(); // R
 
-        t3.start();
-        t4.start();
+//        情况2.1 读写 情况下，按照顺序
+        t1.start(); // R
+        t3.start(); // W
+
+//        情况2.2 写读 情况下，按照顺序
+//        t1.start(); // w
+//        t3.start(); // R
+
+//        情况3 写写 情况下， 按照顺序
+//        t3.start(); // W
+//        t4.start(); // W
 
     }
 }
