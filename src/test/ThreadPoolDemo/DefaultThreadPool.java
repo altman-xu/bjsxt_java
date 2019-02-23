@@ -1,13 +1,9 @@
 package test.ThreadPoolDemo;
 
-import com.sun.corba.se.spi.orbutil.threadpool.Work;
-
-import javax.management.relation.RoleUnresolved;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
