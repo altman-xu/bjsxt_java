@@ -23,8 +23,8 @@ public class ServerHandler implements Runnable {
             while(true){
                 body = in.readLine();
                 if(body == null) break;
-                System.out.println("Server:" + body);
-                out.println("Server response");
+                System.out.println("Server console【" + body + "】");
+                out.println("Sent by server: data...");
             }
         } catch (Exception e) {
             e.printStackTrace();

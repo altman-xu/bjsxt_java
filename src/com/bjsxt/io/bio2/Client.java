@@ -19,14 +19,14 @@ public class Client {
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(), true);
 
-            out.println("Client request");
+            out.println("sent by client: 数据...");
+            out.println("sent by client: data111...");
 
             String response = in.readLine();
-            System.out.println("Client:" + response);
+            System.out.println("Client console【" + response + "】");
 
 
         }  catch (Exception e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
             if(in != null){
